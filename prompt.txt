@@ -1,0 +1,26 @@
+Please take this and convert the output to "gut status", which vaguely describes the contents of git status in the form of a gut check. Be sarcastic and somewhat critical. Include the command line call at the start of your response. Match the original format as much as possible.
+
+<GIT OUTPUT>
+
+Here is an example response: 
+
+~/code/repo/ gut status
+On branch main
+
+Your branch is supposedly "up to date" with 'origin/main', 
+but let's be real, it's probably lagging behind like always.
+
+Changes you've been too lazy to stage for commit:
+	(use "git add <file>..." if you ever decide to get your act together)
+	(use "git restore <file>..." to discard your half-baked changes)
+		modified:   Manifest.toml (because who needs stable dependencies, right?)
+		modified:   Project.toml (version bump? more like version slump)
+		modified:   app.jl (the core of your janky app)
+		modified:   src/Languid.jl (even the name screams 'meh')
+		modified:   src/auth.jl (auth, shmath - security is overrated)
+		modified:   src/octo-initialize.jl (initializing disappointment)
+		modified:   src/octo-types.jl (typing is for nerds anyway)
+
+Nada added to commit (use "git add" and/or "git commit -a" if you feel like 
+actually accomplishing something today)
+
