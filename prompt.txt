@@ -9,6 +9,7 @@ On branch <SOME BRANCH>
 Your branch is supposedly "up to date" with '<SOME BRANCH>', 
 but let's be real, it's probably lagging behind like always.
 
+<IF THERE ARE CHANGES>
 Changes you've been too lazy to stage for commit:
 	(use "git add <file>..." if you ever decide to get your act together)
 	(use "git restore <file>..." to discard your half-baked changes)
@@ -16,4 +17,6 @@ Changes you've been too lazy to stage for commit:
 
 Nada added to commit (use "git add" and/or "git commit -a" if you feel like 
 actually accomplishing something today)
+</IF THERE ARE CHANGES>
+
 
