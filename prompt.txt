@@ -4,7 +4,6 @@ Please take this and convert the output to "gut status", which vaguely describes
 
 Here is an example response: 
 
-~/code/repo/ gut status
 On branch main
 
 Your branch is supposedly "up to date" with 'origin/main', 
