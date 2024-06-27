@@ -1,5 +1,7 @@
 # gut - vibes-based git status
 
+<img width="540" alt="image" src="https://github.com/cpfiffer/gut/assets/422990/c9ff4c0d-48be-47e4-becb-655de34fbd21">
+
 `gut` is a sarcastic and somewhat critical command-line interface (CLI) tool that provides a humorous twist on the traditional `git status` command. It uses the [groq](https://groq.com/) API to generate witty and snarky comments about your Git repository's state.
 
 If you like this, consider sponsoring me or sending me a tip on [GitHub Sponsors](https://github.com/sponsors/cpfiffer).
