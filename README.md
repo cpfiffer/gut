@@ -1,4 +1,4 @@
-# gut - git with a gut feeling
+# gut - vibes-based git status
 
 `gut` is a sarcastic and somewhat critical command-line interface (CLI) tool that provides a humorous twist on the traditional `git status` command. It uses the [groq](https://groq.com/) API to generate witty and snarky comments about your Git repository's state.
 
