@@ -24,7 +24,9 @@ def request_api_key():
     return api_key
 
 def send_to_groq(git_output):
-    with open('prompt.txt', 'r') as f:
+    # Construct the path to 'prompt.txt' using os.path.join and os.path.dirname
+    prompt_path = os.path.join(os.path.dirname(__file__), 'prompt.txt')
+    with open(prompt_path, 'r') as f:
         prompt = f.read().strip()
     
     url = "https://api.groq.com/openai/v1/chat/completions"
